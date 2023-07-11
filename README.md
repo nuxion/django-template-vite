@@ -37,8 +37,9 @@ After that run `rename.sh` script to refactor folders and names to the new one:
 - jupyter as optional dependency + jupytext
 - linting tools
 - By default use a custom user from the BaseUser.   
-- DRF implemented
+- DRF implemented (but it's commented)
 - Dockerfile
+- Vite support with a front
 
 
 ## Creating apps

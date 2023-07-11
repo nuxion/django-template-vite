@@ -125,9 +125,10 @@ DJANGO_VITE_STATIC_URL_PREFIX = "bundler"
 DJANGO_VITE_DEV_SERVER_PORT = 5173
 
 STATIC_URL = "static/"
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 STATICFILES_DIRS = [
-    BASE_DIR / "static",
+    # "static",
     # "/var/www/static/",
     ("bundler", DJANGO_VITE_ASSETS_PATH),
 ]
